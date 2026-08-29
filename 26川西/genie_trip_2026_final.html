@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>2026 格聂环线｜完整自驾计划</title>
+  <style>
+    :root{--ink:#162c28;--muted:#62736e;--paper:#f4f1e8;--card:#fffdf8;--line:#d7d8ce;--green:#17745b;--green2:#e0eee7;--orange:#d05e2b;--orange2:#fff0df;--blue:#2c6f94;--blue2:#e3f0f6;--purple:#76538f;--purple2:#eee5f4;--red:#a73c31;--shadow:0 10px 28px rgba(28,52,43,.08)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.62}.wrap{max-width:1120px;margin:auto;padding:26px 20px 72px}a{color:var(--green);text-underline-offset:3px}.hero{padding:34px;border-radius:28px;background:linear-gradient(135deg,#143a31,#286b57);color:#fff;box-shadow:var(--shadow);position:relative;overflow:hidden}.hero:after{content:"817";position:absolute;right:20px;bottom:-52px;font-size:180px;font-weight:800;color:rgba(255,255,255,.05);line-height:1}.eyebrow{font-size:13px;letter-spacing:.15em;color:#c7dfd5}.hero h1{font-size:clamp(30px,5vw,50px);line-height:1.12;margin:8px 0 12px;max-width:850px}.hero p{margin:0;max-width:900px;color:#e1eee9}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:24px;position:relative;z-index:1}.metric{padding:13px;border-radius:14px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.1)}.metric b{display:block;font-size:18px}.metric span{font-size:12px;color:#dceae4}
+    nav{display:flex;gap:8px;flex-wrap:wrap;padding:18px 0 3px;position:sticky;top:0;z-index:5;background:linear-gradient(var(--paper) 75%,transparent)}nav a{text-decoration:none;color:var(--ink);font-size:13px;padding:7px 13px;background:var(--card);border:1px solid var(--line);border-radius:999px}section{margin-top:30px}h2{font-size:26px;line-height:1.25;margin:0 0 14px}h3{margin:0}.sub{margin:-8px 0 16px;color:var(--muted)}.notice{padding:16px 18px;border-radius:14px;background:var(--orange2);border-left:5px solid var(--orange)}.notice b{color:#8d3d1d}.draft{background:var(--blue2);border-left-color:var(--blue)}
+    .tag{display:inline-flex;align-items:center;border-radius:999px;padding:5px 10px;font-size:12px;font-weight:700}.food{background:var(--orange2);color:#8d3d1d}.stay{background:var(--purple2);color:#5c3d74}.spot{background:var(--blue2);color:#255b76}.drive{background:var(--green2);color:#185945}.fuel{background:#fff2b9;color:#765800}.risk{background:#f7ddd8;color:#8a342b}.days{display:grid;gap:18px}.day{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px;box-shadow:var(--shadow)}.dayhead{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:start;padding-bottom:14px;border-bottom:1px solid var(--line)}.date{min-width:72px;text-align:center;background:var(--green);color:#fff;padding:8px 11px;border-radius:14px}.date b{display:block;font-size:22px;line-height:1}.date span{font-size:11px}.daytitle p{margin:4px 0 0;color:var(--muted)}.daykm{text-align:right;color:var(--muted);font-size:13px}.daykm b{display:block;color:var(--ink);font-size:18px}.timeline{margin:16px 0 0 11px;border-left:2px solid #d4ddd7;padding-left:21px}.event{position:relative;padding:0 0 17px}.event:last-child{padding-bottom:0}.event:before{content:"";position:absolute;left:-28px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--card);border:3px solid var(--green)}.event.meal:before{border-color:var(--orange)}.event.hotel:before{border-color:var(--purple);border-radius:3px}.event.sight:before{border-color:var(--blue)}.time{font-weight:700;font-variant-numeric:tabular-nums;color:var(--green);margin-right:8px}.event p{margin:4px 0;color:var(--muted);font-size:14px}.bits{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}.bit{font-size:12px;border:1px solid var(--line);background:#fff;border-radius:9px;padding:6px 9px}.hard{outline:2px solid var(--orange);outline-offset:2px}.fallback{margin-top:14px;padding:12px 14px;border-left:4px solid var(--blue);border-radius:10px;background:var(--blue2);font-size:14px}
+    .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}.panel ul{margin:8px 0 0;padding-left:20px}.panel li+li{margin-top:7px}table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}th,td{padding:11px 13px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);font-size:13px}th{background:#eaf0e9}tr:last-child td{border-bottom:0}.money{font-weight:800;color:#8d3d1d}.footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px}.printbtn{position:fixed;right:18px;bottom:18px;border:0;border-radius:999px;background:var(--ink);color:#fff;padding:11px 16px;box-shadow:var(--shadow);cursor:pointer}.chapter{display:flex;gap:12px;align-items:center}.chapter-no{display:inline-grid;place-items:center;min-width:44px;height:44px;border-radius:14px;background:var(--green);color:#fff;font-size:14px;font-weight:800}.subhead{font-size:19px;margin:22px 0 10px}.phone{white-space:nowrap;font-weight:750}.phone a{text-decoration:none}.offline{display:inline-block;margin-top:4px;color:var(--muted);font-size:12px}.tablewrap{overflow-x:auto}.rent-table td:first-child,.hotel-table td:first-child,.overview-table td:first-child{white-space:nowrap;font-weight:700}.packing td:nth-child(1){font-weight:800;white-space:nowrap}.packing td:nth-child(2){white-space:nowrap}.packing label{display:block}.packing label+label{margin-top:5px}.packing input{accent-color:var(--green);margin-right:6px}.merged-note{padding:11px 14px;border-radius:12px;background:var(--green2);color:#245b4a;font-size:13px;margin:0 0 14px}.route-map-wrap{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow)}.route-map-svg{display:block;width:100%;min-width:1080px;height:auto}.route-map-svg text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}.route-map-svg .route{fill:none;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.route-map-svg .city{fill:#fff;stroke:#172724;stroke-width:3}.route-map-svg .city-name{font-size:19px;font-weight:800;fill:#172724}.route-map-svg .minor-name{font-size:16px;font-weight:700;fill:#172724}.route-map-svg .alt{font-size:15px;font-weight:750;fill:#c8462c}.route-map-svg .hotel-label{font-size:15px;font-weight:800;fill:#6633bb}.route-map-svg .fuel-label{font-size:14px;font-weight:800;fill:#7a5900}.route-map-svg .route-label{font-size:16px;font-weight:850}.route-map-svg .legend-text{font-size:14px;font-weight:700;fill:#22312e}.route-map-svg .legend-sub{font-size:12px;fill:#66756f}.route-map-svg .map-note{font-size:14px;fill:#5c6d67}.route-map-svg .map-title{font-size:34px;font-weight:900;fill:#132521}.route-map-svg .map-subtitle{font-size:17px;font-weight:700;fill:#495954}.route-map-svg .branch{fill:none;stroke:#98a49f;stroke-width:3;stroke-dasharray:8 7}.route-map-svg .mountain{fill:#eef5f2;stroke:#a7c4bb;stroke-width:2}.route-map-svg .lake{fill:#e7f5fa;stroke:#76b7d0;stroke-width:2}
+    @media(max-width:780px){.wrap{padding:14px 12px 58px}.hero{padding:24px 20px;border-radius:20px}.metrics{grid-template-columns:1fr 1fr}.dayhead{grid-template-columns:auto 1fr}.daykm{grid-column:2;text-align:left}.grid2{grid-template-columns:1fr}.printbtn{display:none}}
+    @media print{body{background:#fff}.wrap{max-width:none;padding:0}.hero,.day{box-shadow:none}nav,.printbtn{display:none}.day{break-inside:avoid}.route-map-svg{min-width:0}.route-map-wrap{box-shadow:none}}
+  </style>
+</head>
+<body>
+<main class="wrap">
+  <header class="hero">
+    <div class="eyebrow">TRIP BOOK · MENGSHI M817</div>
+    <h1>2026 格聂环线 6 日行程手册</h1>
+    <p>2026/09/26—10/01｜以本次租车订单、已订酒店和格聂反穿目标为准。此版先确认文字与时间，确认后再绘制路线图。</p>
+    <div class="metrics">
+      <div class="metric"><b>租车 ¥2,070</b><span>东风猛士 M817</span></div>
+      <div class="metric"><b>住宿 ¥1,381</b><span>9/25—9/29，崇州另计</span></div>
+      <div class="metric"><b>3处核心必到</b><span>夯达·则巴·格聂之眼</span></div>
+      <div class="metric"><b>10/1 14:00前</b><span>彭州木子里停车场还车</span></div>
+    </div>
+  </header>
+
+  <nav aria-label="页面导航"><a href="#car">第一章｜租车</a><a href="#hotels">第二章｜住宿</a><a href="#itinerary">第三章｜行程规划</a><a href="#packing">第四章｜携带物品</a><a href="#sources">核对依据</a></nav>
+
+  <section id="car">
+    <h2 class="chapter"><span class="chapter-no">01</span><span>第一章｜租车</span></h2>
+    <p class="sub">原1.1订单信息与1.2车辆说明已合并为一张执行表。</p>
+    <div class="tablewrap"><table class="rent-table">
+      <thead><tr><th>平台</th><th>车型</th><th>取车</th><th>还车</th><th>总价格</th><th>离线联系电话</th><th>取还车执行</th></tr></thead>
+      <tbody><tr>
+        <td>神州租车</td>
+        <td><b>东风猛士 M817</b><br>增程式硬派SUV</td>
+        <td>9/26 14:00<br>成都天府国际机场店</td>
+        <td>10/1 14:00前<br>成都彭州木子里停车场自助点</td>
+        <td class="money">¥2,070</td>
+        <td><span class="phone"><a href="tel:4006166666">400-616-6666</a></span><br><span class="phone"><a href="tel:19113198090">191-1319-8090</a></span><span class="offline">全国客服 / 天府机场店公开电话</span></td>
+        <td>取车时拍摄车身、轮胎、轮毂、玻璃、底盘可见区域、油量、电量和里程；确认备胎、救援范围与非铺装路保障。10/1按13:00内部目标到达，14:00为订单最晚时间。</td>
+      </tr></tbody>
+    </table></div>
+  </section>
+
+  <section id="hotels">
+    <h2 class="chapter"><span class="chapter-no">02</span><span>第二章｜住宿</span></h2>
+    <p class="sub">酒店作为每天的固定终点；订单信息以你提供的记录为准，电话已整理为可离线拨号格式。</p>
+    <div class="tablewrap"><table class="hotel-table">
+      <thead><tr><th>日期</th><th>住宿地点 / 海拔</th><th>酒店与地址</th><th>平台 / 价格 / 取消</th><th>酒店电话</th><th>到店事项</th></tr></thead>
+      <tbody>
+        <tr><td>9/25</td><td>成都天府机场<br><b>约500m</b></td><td><span class="tag stay">◆ 希尔曼精品酒店</span><br>成都天府机场T2航站楼店</td><td>高德地图<br><span class="money">¥143</span></td><td><span class="phone"><a href="tel:02881326666">028-8132-6666</a></span><br><span class="phone"><a href="tel:19180957951">191-8095-7951</a></span></td><td>9/26午饭后前往取车点；离店前下载离线地图并保存全部订单截图。</td></tr>
+        <tr><td>9/26</td><td>新都桥镇<br><b>约3,460m</b></td><td><span class="tag stay">◆ 康定市新都桥隐沫度假酒店</span><br>营官村2组43号</td><td>去哪儿微信<br><span class="money">¥287</span><br>9/26 18:00前可取消</td><td><span class="phone"><a href="tel:19981712331">199-8171-2331</a></span></td><td>弥散式供氧；预计晚到，14:00出发前报备预计到店时间。</td></tr>
+        <tr><td>9/27</td><td>巴塘县城<br><b>约2,580m</b></td><td><span class="tag stay">◆ 海友酒店（甘孜巴塘店）</span><br>桃园路261号</td><td>去哪儿微信小程序<br><span class="money">¥221</span></td><td><span class="phone"><a href="tel:08368567567">0836-8567567</a></span><br><span class="phone"><a href="tel:19113899223">191-1389-9223</a></span></td><td>有停车、充电和洗衣；当晚加满油、补电、采购D3路餐并确认南线路况。</td></tr>
+        <tr><td>9/28</td><td>然日卡 / 下则通区域<br><b>约3,800m</b></td><td><span class="tag stay">◆ 理塘格聂云庭富氧酒店</span><br>格聂镇然日卡村二组22号；距下则通村约200m</td><td>美团<br><span class="money">¥474</span><br>9/28 20:00前免费取消</td><td><span class="phone"><a href="tel:15828177292">158-2817-7292</a></span></td><td>富氧、地暖、餐厅与充电；提前确认晚餐、停车和观星位置。夯达车宿保留为天气与装备合适时的备选。</td></tr>
+        <tr><td>9/29</td><td>雅江松茸村<br><b>约2,870—3,000m</b></td><td><span class="tag stay">◆ 雅江阿美达民宿</span><br>八角楼乡松茸村55号</td><td>去哪儿微信小程序<br><span class="money">¥256</span></td><td><span class="phone"><a href="tel:18380156365">183-8015-6365</a></span></td><td>提前预订松茸鸡汤并报备到店时间；民宿公开信息提示22:00后到店需提前联系。</td></tr>
+        <tr><td>9/30</td><td>崇州<br><b>约560m</b></td><td><span class="tag stay">◆ 酒店待订</span><br>优先崇州东侧或高速口附近</td><td>预算待定<br>选择可晚到、有停车场房型</td><td><span class="phone">订妥后补录</span><span class="offline">从订单页抄录酒店直线电话</span></td><td>当晚完成清车、补油、行李整理；把酒店至还车点离线导航截图保存到手机。</td></tr>
+      </tbody>
+    </table></div>
+    <div class="notice draft" style="margin-top:12px"><b>住宿费用：</b>目前已知订单合计 <span class="money">¥1,381</span>，9/30崇州住宿另计。出发前把本表存为PDF或截图，确保无网络时仍能查电话和地址。</div>
+  </section>
+
+  <section id="itinerary">
+    <h2 class="chapter"><span class="chapter-no">03</span><span>第三章｜行程规划</span></h2>
+    <h3 class="subhead">3.1｜格聂环线路线图</h3>
+    <div class="route-map-wrap">
+      <svg class="route-map-svg" viewBox="0 0 1500 900" role="img" aria-labelledby="routeMapTitle routeMapDesc">
+        <title id="routeMapTitle">猛士M817，2026年格聂环线六日路线图</title>
+        <desc id="routeMapDesc">按真实相对方位绘制的路线示意。六天路线分别用紫、蓝、绿、青、橙、黄标识；蓝色圆形是景点，紫色菱形是酒店，黄色方形是加油点。</desc>
+        <defs>
+          <marker id="arr1" viewBox="0 0 20 20" markerWidth="20" markerHeight="20" refX="17" refY="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L20 10L0 20L5 10Z" fill="#7047c9" stroke="#fff" stroke-width="1"/></marker>
+          <marker id="arr2" viewBox="0 0 20 20" markerWidth="20" markerHeight="20" refX="17" refY="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L20 10L0 20L5 10Z" fill="#2187df" stroke="#fff" stroke-width="1"/></marker>
+          <marker id="arr3" viewBox="0 0 20 20" markerWidth="20" markerHeight="20" refX="17" refY="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L20 10L0 20L5 10Z" fill="#27b82f" stroke="#fff" stroke-width="1"/></marker>
+          <marker id="arr4" viewBox="0 0 20 20" markerWidth="20" markerHeight="20" refX="17" refY="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L20 10L0 20L5 10Z" fill="#11aa98" stroke="#fff" stroke-width="1"/></marker>
+          <marker id="arr5" viewBox="0 0 20 20" markerWidth="20" markerHeight="20" refX="17" refY="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L20 10L0 20L5 10Z" fill="#f06a17" stroke="#fff" stroke-width="1"/></marker>
+          <marker id="arr6" viewBox="0 0 20 20" markerWidth="20" markerHeight="20" refX="17" refY="10" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L20 10L0 20L5 10Z" fill="#e5aa08" stroke="#fff" stroke-width="1"/></marker>
+          <symbol id="hotelIcon" viewBox="0 0 28 28"><path d="M14 1L27 14L14 27L1 14Z" fill="#6f37bd" stroke="#fff" stroke-width="2"/><path d="M8 11v8m0-3h12m0-5v8M10 13h5a3 3 0 0 1 3 3" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/></symbol>
+          <symbol id="fuelIcon" viewBox="0 0 28 28"><rect x="1" y="1" width="26" height="26" rx="6" fill="#f4c542" stroke="#fff" stroke-width="2"/><path d="M8 21V7h9v14M9.5 9h6v4h-6m8-3 3 3v6a2 2 0 0 0 4 0v-6l-2-2" fill="none" stroke="#583f00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+          <symbol id="sightIcon" viewBox="0 0 28 28"><circle cx="14" cy="14" r="13" fill="#287da5" stroke="#fff" stroke-width="2"/><path d="M6.5 19 12 10l3.2 4.7 2.2-3.2 4.1 7.5M9.5 15h8" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        </defs>
+
+        <rect width="1500" height="900" fill="#fff"/>
+        <text x="750" y="52" text-anchor="middle" class="map-title">猛士 M817 · 2026 格聂环线 6 日路线图</text>
+        <text x="750" y="82" text-anchor="middle" class="map-subtitle">2026.09.26—2026.10.01｜反穿方向：巴塘 → 然日卡 / 下则通 → 理塘｜按真实相对方位绘制</text>
+        <text x="750" y="105" text-anchor="middle" class="map-note">路线连线为行程示意，实际行车以离线地图、实时导航和现场通行条件为准</text>
+
+        <g aria-label="图标图例" transform="translate(1060 118)">
+          <rect x="0" y="0" width="390" height="54" rx="14" fill="#f6f7f4" stroke="#d4d9d5"/>
+          <use href="#hotelIcon" x="18" y="13" width="28" height="28"/><text x="54" y="34" class="legend-text">酒店</text>
+          <use href="#fuelIcon" x="120" y="13" width="28" height="28"/><text x="156" y="34" class="legend-text">加油 / 补能</text>
+          <use href="#sightIcon" x="274" y="13" width="28" height="28"/><text x="310" y="34" class="legend-text">途经景点</text>
+        </g>
+
+        <g opacity=".9" aria-hidden="true">
+          <path class="mountain" d="M465 455 515 390l38 53 35-75 62 87Z"/><ellipse class="lake" cx="560" cy="470" rx="76" ry="12"/>
+          <path class="mountain" d="M420 735 458 686l28 37 35-57 60 69Z"/><ellipse class="lake" cx="505" cy="748" rx="62" ry="10"/>
+        </g>
+
+        <g aria-label="每日路线">
+          <polyline class="route" points="1420,470 1355,458 1285,438 1215,415 1160,400 1090,403 1025,402 970,400" stroke="#7047c9" marker-mid="url(#arr1)" marker-end="url(#arr1)"/>
+          <polyline class="route" points="970,400 910,388 860,380 830,375 760,362 700,360 650,330 605,295 560,260 520,240 475,270 430,298 410,305 355,335 315,370 280,400" stroke="#2187df" marker-mid="url(#arr2)" marker-end="url(#arr2)"/>
+          <polyline class="route" points="280,400 275,455 300,500 320,520 335,575 350,620 390,650 415,700 455,740 500,780 550,790 600,775 650,730 680,705 700,675 700,640 690,600 675,560 710,545 750,520" stroke="#27b82f" marker-mid="url(#arr3)" marker-end="url(#arr3)"/>
+          <polyline class="route" points="750,520 742,555 720,590 745,620 790,660 805,620 820,580 820,540 810,500 790,470 755,430 725,390 700,360 755,363 815,370 870,380" stroke="#11aa98" marker-mid="url(#arr4)" marker-end="url(#arr4)"/>
+          <polyline class="route" points="870,380 920,392 970,400 982,350 1008,292 1040,235 1080,238 1120,250 1138,310 1150,360 1160,400 1215,385 1270,350 1320,320" stroke="#f06a17" marker-mid="url(#arr5)" marker-end="url(#arr5)"/>
+          <polyline class="route" points="1320,320 1338,296 1355,270 1380,230" stroke="#e5aa08" marker-mid="url(#arr6)" marker-end="url(#arr6)"/>
+          <text x="1260" y="455" class="route-label" fill="#7047c9">D1 · 9/26</text>
+          <text x="585" y="205" class="route-label" fill="#2187df">D2 · 9/27</text>
+          <text x="250" y="585" class="route-label" fill="#27b82f" transform="rotate(78 250 585)">D3 · 9/28 反穿</text>
+          <text x="820" y="455" class="route-label" fill="#11aa98">D4 · 9/29</text>
+          <text x="1080" y="210" class="route-label" fill="#f06a17">D5 · 9/30</text>
+          <text x="1388" y="285" class="route-label" fill="#b88600">D6 · 10/1</text>
+        </g>
+
+        <g aria-label="城市与主要节点">
+          <circle class="city" cx="1420" cy="470" r="10"/><text x="1418" y="503" text-anchor="middle" class="city-name">天府机场</text><text x="1418" y="524" text-anchor="middle" class="alt">14:00取车</text>
+          <circle class="city" cx="1380" cy="230" r="10"/><text x="1380" y="205" text-anchor="middle" class="city-name">彭州还车</text><text x="1380" y="184" text-anchor="middle" class="alt">10/1 14:00前</text>
+          <circle class="city" cx="1320" cy="320" r="10"/><text x="1320" y="298" text-anchor="middle" class="city-name">崇州</text><text x="1320" y="350" text-anchor="middle" class="alt">约560m</text>
+          <circle class="city" cx="1160" cy="400" r="10"/><text x="1176" y="429" class="city-name">康定</text><text x="1176" y="449" class="alt">约2560m</text>
+          <circle class="city" cx="970" cy="400" r="10"/><text x="970" y="432" text-anchor="middle" class="city-name">新都桥</text><text x="970" y="452" text-anchor="middle" class="alt">约3460m</text>
+          <circle class="city" cx="830" cy="375" r="9"/><text x="830" y="348" text-anchor="middle" class="city-name">雅江</text>
+          <circle class="city" cx="700" cy="360" r="10"/><text x="700" y="338" text-anchor="middle" class="city-name">理塘</text><text x="700" y="390" text-anchor="middle" class="alt">约4014m</text>
+          <circle class="city" cx="280" cy="400" r="10"/><text x="250" y="389" text-anchor="end" class="city-name">巴塘</text><text x="250" y="411" text-anchor="end" class="alt">约2580m</text>
+          <circle class="city" cx="790" cy="660" r="9"/><text x="810" y="686" class="city-name">格聂镇</text>
+        </g>
+
+        <g aria-label="住宿">
+          <use href="#hotelIcon" x="1392" y="526" width="28" height="28"/><text x="1384" y="568" text-anchor="end" class="hotel-label">9/25 希尔曼 · 约500m</text>
+          <use href="#hotelIcon" x="942" y="456" width="28" height="28"/><text x="934" y="480" text-anchor="end" class="hotel-label">9/26 隐沫度假酒店</text>
+          <use href="#hotelIcon" x="245" y="418" width="28" height="28"/><text x="238" y="442" text-anchor="end" class="hotel-label">9/27 巴塘海友</text>
+          <use href="#hotelIcon" x="746" y="490" width="28" height="28"/><text x="780" y="500" class="hotel-label">9/28 格聂云庭</text><text x="780" y="519" class="hotel-label">然日卡 / 下则通 · 约3800m</text><text x="780" y="538" class="legend-sub">20:30—21:30 银河 / 星空</text>
+          <use href="#hotelIcon" x="856" y="313" width="28" height="28"/><text x="890" y="325" class="hotel-label">9/29 阿美达 · 松茸村</text>
+          <use href="#hotelIcon" x="1325" y="346" width="28" height="28"/><text x="1360" y="369" class="hotel-label">9/30 崇州酒店待订</text>
+        </g>
+
+        <g aria-label="加油与补能">
+          <use href="#fuelIcon" x="1370" y="438" width="26" height="26"/><text x="1362" y="435" text-anchor="end" class="fuel-label">D1 满油 / 满电</text>
+          <use href="#fuelIcon" x="674" y="396" width="26" height="26"/><text x="662" y="438" text-anchor="end" class="fuel-label">D2 / D4 理塘加满</text>
+          <use href="#fuelIcon" x="290" y="370" width="26" height="26"/><text x="322" y="376" class="fuel-label">D2 巴塘加满</text>
+          <use href="#fuelIcon" x="989" y="412" width="26" height="26"/><text x="1018" y="438" class="fuel-label">D5 新都桥补能</text>
+          <use href="#fuelIcon" x="1170" y="365" width="26" height="26"/><text x="1202" y="376" class="fuel-label">康定补能</text>
+        </g>
+
+        <g aria-label="途经景点">
+          <use href="#sightIcon" x="875" y="354" width="24" height="24"/><text x="903" y="369" class="minor-name">天路十八弯</text>
+          <use href="#sightIcon" x="745" y="342" width="24" height="24"/><text x="757" y="330" text-anchor="middle" class="minor-name">卡子拉山</text>
+          <use href="#sightIcon" x="593" y="283" width="24" height="24"/><text x="605" y="275" text-anchor="middle" class="minor-name">毛垭草原</text>
+          <use href="#sightIcon" x="508" y="228" width="24" height="24"/><text x="520" y="212" text-anchor="middle" class="minor-name">姊妹湖</text><text x="520" y="229" text-anchor="middle" class="alt">约4486m</text>
+          <use href="#sightIcon" x="398" y="293" width="24" height="24"/><text x="398" y="282" text-anchor="end" class="minor-name">措普沟</text>
+          <use href="#sightIcon" x="308" y="508" width="24" height="24"/><text x="296" y="525" text-anchor="end" class="minor-name">扎瓦拉垭口</text><text x="296" y="544" text-anchor="end" class="alt">约4900m</text>
+          <use href="#sightIcon" x="338" y="608" width="24" height="24"/><text x="328" y="627" text-anchor="end" class="minor-name">格木村</text>
+          <use href="#sightIcon" x="403" y="688" width="24" height="24"/><text x="393" y="708" text-anchor="end" class="minor-name">劳者龙巴垭口</text>
+          <use href="#sightIcon" x="488" y="768" width="24" height="24"/><text x="500" y="814" text-anchor="middle" class="minor-name">热梯河谷</text>
+          <use href="#sightIcon" x="558" y="758" width="24" height="24"/><text x="570" y="812" text-anchor="middle" class="minor-name">夯达营地</text>
+          <use href="#sightIcon" x="638" y="698" width="24" height="24"/><text x="650" y="748" text-anchor="middle" class="minor-name">则巴村</text>
+          <use href="#sightIcon" x="688" y="628" width="24" height="24"/><text x="677" y="652" text-anchor="end" class="minor-name">新冷古寺</text>
+          <path class="branch" d="M700 640Q670 655 640 668"/><use href="#sightIcon" x="626" y="655" width="24" height="24"/><text x="614" y="677" text-anchor="end" class="minor-name">老冷古寺</text><text x="614" y="696" text-anchor="end" class="legend-sub">顺路余量项</text>
+          <use href="#sightIcon" x="663" y="548" width="24" height="24"/><text x="652" y="565" text-anchor="end" class="minor-name">格聂之眼</text>
+          <use href="#sightIcon" x="708" y="578" width="24" height="24"/><text x="698" y="605" text-anchor="end" class="minor-name">自然中心 / 小木屋</text>
+          <use href="#sightIcon" x="808" y="548" width="24" height="24"/><text x="842" y="565" class="minor-name">伊拉卡观景台</text>
+          <use href="#sightIcon" x="778" y="458" width="24" height="24"/><text x="770" y="452" text-anchor="end" class="minor-name">铁匠山垭口</text>
+          <use href="#sightIcon" x="1028" y="223" width="24" height="24"/><text x="1040" y="207" text-anchor="middle" class="minor-name">格底拉姆</text><text x="1040" y="224" text-anchor="middle" class="alt">约4200m</text>
+          <use href="#sightIcon" x="1108" y="238" width="24" height="24"/><text x="1120" y="220" text-anchor="middle" class="minor-name">红海子</text><text x="1120" y="237" text-anchor="middle" class="alt">约4200m</text>
+        </g>
+
+        <g aria-label="每日路线图例" transform="translate(980 675)">
+          <rect x="0" y="0" width="470" height="188" rx="18" fill="#fbfcfa" stroke="#9da9a4" stroke-width="2" stroke-dasharray="7 5"/>
+          <text x="20" y="28" class="city-name">每日路线</text>
+          <g transform="translate(20 48)">
+            <path d="M0 0h54" stroke="#7047c9" stroke-width="7" stroke-linecap="round" marker-end="url(#arr1)"/><text x="70" y="5" class="legend-text">D1 天府机场 → 康定 → 新都桥</text>
+            <path d="M0 26h54" stroke="#2187df" stroke-width="7" stroke-linecap="round" marker-end="url(#arr2)"/><text x="70" y="31" class="legend-text">D2 新都桥 → 理塘 → 措普沟 → 巴塘</text>
+            <path d="M0 52h54" stroke="#27b82f" stroke-width="7" stroke-linecap="round" marker-end="url(#arr3)"/><text x="70" y="57" class="legend-text">D3 巴塘反穿 → 格聂云庭</text>
+            <path d="M0 78h54" stroke="#11aa98" stroke-width="7" stroke-linecap="round" marker-end="url(#arr4)"/><text x="70" y="83" class="legend-text">D4 然日卡 → 理塘 → 松茸村</text>
+            <path d="M0 104h54" stroke="#f06a17" stroke-width="7" stroke-linecap="round" marker-end="url(#arr5)"/><text x="70" y="109" class="legend-text">D5 松茸村 → S434 → 康定 → 崇州</text>
+            <path d="M0 130h54" stroke="#e5aa08" stroke-width="7" stroke-linecap="round" marker-end="url(#arr6)"/><text x="70" y="135" class="legend-text">D6 崇州 → 彭州还车</text>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <h3 class="subhead">3.2｜逐日详细计划与关键时间</h3>
+    <p class="merged-note">原3.2逐日安排与3.3关键节点已合并：每一天的时间轴同时标出用餐、加油、住宿和延误调整，执行时只需查看当天卡片。</p>
+    <p class="sub">9/27—9/29是核心游玩日；D2、D3统一07:00起床、08:00出发，准备时间压缩为1小时；其他日期按已确认节奏执行。晚间驾驶主要落在G318或高速铺装路段。</p>
+    <div class="days">
+
+      <article class="day">
+        <div class="dayhead"><div class="date"><b>26</b><span>周六</span></div><div class="daytitle"><h3>D1｜天府机场 → 康定 → 新都桥隐沫度假酒店</h3><p>14:00拿车后直达新都桥；红海子、格底拉姆安排在D5白天。</p></div><div class="daykm"><b>约410—440km</b>纯驾驶约6.5—8h</div></div>
+        <div class="timeline">
+          <div class="event meal"><span class="time">11:00—12:30</span><span class="tag food">🍜 起床 + 午饭</span><p>在机场酒店完成洗漱、退房并吃午饭，作为当天第一餐。</p></div>
+          <div class="event"><span class="time">13:20—14:00</span><span class="tag drive">→ 神州租车验车</span><p>拍摄车身、轮胎、轮毂、底盘可见区域、油量、电量和里程，确认非铺装道路保险及救援范围。</p></div>
+          <div class="event"><span class="time">14:00—14:15</span><span class="tag fuel">⛽ 天府机场附近加满油 / 补足电</span><p>以满油状态进入川西；保存加油小票与出发油表照片。</p></div>
+          <div class="event"><span class="time">14:15</span><span class="tag drive">→ 完成加油后驶向康定</span><p>走成雅/雅康高速；途中安排厕所和补能短停。</p></div>
+          <div class="event meal"><span class="time">18:00—18:40</span><span class="tag food">🍜 康定快餐</span><p>17:30核对实时路况并向新都桥酒店报备到店时间，饭后走G318。</p></div>
+          <div class="event hotel"><span class="time">21:00—22:00</span><span class="tag stay">◆ 新都桥隐沫度假酒店 · 约3,460m</span><p>22:00作为当晚驾驶上限；使用弥散供氧，快速洗漱后休息，并提前告知酒店预计晚到。</p></div>
+        </div>
+        <div class="fallback"><b>路况方案：</b>雅康高速严重管制、结冰或驾驶员疲劳时改住康定，并在18:00前处理新都桥订单；同时重新核算D2措普沟入园时间。</div>
+      </article>
+
+      <article class="day">
+        <div class="dayhead"><div class="date"><b>27</b><span>周日</span></div><div class="daytitle"><h3>D2｜新都桥 → 雅江 → 理塘 → 姊妹湖 → 措普沟 → 巴塘海友</h3><p>措普沟硬性必到；这是除D3之外的第二个必要早起日。</p></div><div class="daykm"><b>约400—450km</b>纯驾驶约8—9h</div></div>
+        <div class="timeline">
+          <div class="event meal"><span class="time">07:00—08:00</span><span class="tag food">🍜 起床 + 快速早餐/退房</span><p>前一晚整理好行李、路餐和D3反穿补给；早饭快速吃完或打包带走，08:00准时出发。</p></div>
+          <div class="event sight"><span class="time">08:00—12:00</span><span class="tag spot">● 天路十八弯 / 卡子拉山 / 毛垭草原</span><p>在正规观景位各停5—10分钟，沿G318连续向理塘推进。</p></div>
+          <div class="event meal"><span class="time">12:00—12:35</span><span class="tag food">🍜 理塘快餐</span> <span class="tag fuel">⛽ 理塘加满油</span><p>理塘完成午饭与燃油补给后继续西行；按理塘至巴塘之间无可靠加油点安排。</p></div>
+          <div class="event sight"><span class="time">14:10—14:45</span><span class="tag spot">● 海子山姊妹湖</span><p>在G318观景台停留约35分钟；14:45驶向措普沟游客中心。</p></div>
+          <div class="event sight"><span class="time">15:30—18:00</span><span class="tag spot">● 必到｜措普沟精华</span><p>前一天向景区确认预约、最后入园和末班景交时间；集中游览措普湖、温泉地貌等核心区域。</p></div>
+          <div class="event hotel"><span class="time">20:00—21:30</span><span class="tag stay">◆ 海友酒店（甘孜巴塘店）· 约2,580m</span> <span class="tag fuel">⛽ 巴塘再次加满油</span><p>离开景区后沿铺装主路抵达巴塘。到店简单晚饭；完成油电补给，下载格聂南线离线地图，向下则通民宿确认次日道路和晚餐。</p></div>
+        </div>
+        <div class="fallback"><b>措普沟时间优先：</b>进度落后时，将天路十八弯、卡子拉山和毛垭草原调整为沿途车览，理塘采用20分钟路餐；景区临时关闭或道路封闭时按官方通告执行。</div>
+      </article>
+
+      <article class="day">
+        <div class="dayhead"><div class="date"><b>28</b><span>周一</span></div><div class="daytitle"><h3>D3｜巴塘 → 夯达营地 → 则巴村 → 格聂之眼 → 下则通村</h3><p>格聂南线反穿核心日；三个指定打卡点全部列为必到。</p></div><div class="daykm"><b>约210—250km</b>纯驾驶约9—11h</div></div>
+        <div class="timeline">
+          <div class="event meal"><span class="time">07:00—08:00</span><span class="tag food">🍜 起床 + 压缩早餐/退房</span><p>行李、离线地图和车辆补给在前一晚完成；7:30早餐开放后快速吃或打包，08:00出发。</p></div>
+          <div class="event"><span class="time">08:00</span><span class="tag drive">→ 准时反穿</span><p>地理顺序：巴塘 → 波密乡/格木村 → 扎瓦拉垭口 → 劳者龙巴 → 热梯河谷 → 夯达营地 → 则巴村 → 新冷古寺路口 → 格聂之眼 → 下则通村。提前下载离线地图，岔路结合民宿和现场指引确认。</p></div>
+          <div class="event sight"><span class="time">09:00—13:00</span><span class="tag spot">● 西段精华</span><p>扎瓦拉、格木村、劳者龙巴和热梯河谷每处控制10—20分钟；落石带、盲弯和涉水点保持连续通行。</p></div>
+          <div class="event meal"><span class="time">13:00</span><span class="tag food">🍜 安全位置路餐</span><p>饮水和路餐在巴塘备齐，在视野开阔的停车位置用餐。</p></div>
+          <div class="event sight"><span class="time">13:30—14:30</span><span class="tag spot">● 必到 1｜夯达营地</span><p>在营地指定位置停车，拍摄格聂南坡和河谷；同时确认天气、车况和剩余日照时间。</p></div>
+          <div class="event sight"><span class="time">14:40—15:40</span><span class="tag spot">● 必到 2｜则巴村</span><p>村落和雪山机位停留约40—60分钟；车辆停在指定区域并保持村道通畅，15:40继续前往格聂之眼。</p></div>
+          <div class="event sight"><span class="time">17:00—17:45</span><span class="tag spot">● 必到 3｜格聂之眼</span><p>在正规停车位下车，沿现有步道接近并保护草甸。若17:30仍在途中，则调整为D4 09:30第一站。</p></div>
+          <div class="event sight"><span class="time">顺路条件项</span><span class="tag spot">○ 老冷古寺｜有余量则去</span><p>14:00前抵达新冷古寺、天气和身体状态良好、当地摩托或马匹可立即往返，并确认能在天黑前完成格聂之眼及入住时进入；时间不足则略过，D4按单向路线继续。</p></div>
+          <div class="event hotel"><span class="time">18:15—19:30</span><span class="tag stay">◆ 格聂云庭富氧民宿 · 下则通村约3,800m</span><p>完成晚餐、供氧和停车，随后在下则通休息。</p></div>
+          <div class="event sight"><span class="time">20:30—21:30</span><span class="tag spot">★ 格聂银河 / 星空观察</span><p>步行前往民宿老板推荐的村内开阔安全点，面向西南观察；使用红光照明并适应黑暗约20分钟。根据云量和月光，在银河、星空与雪山月色之间选择拍摄主题。</p></div>
+        </div>
+        <div class="bits"><span class="bit hard">默认住已订富氧民宿</span><span class="bit">连续无信号</span><span class="bit">多座4600—5000m垭口</span></div>
+        <div class="fallback"><b>夯达车宿备选：</b>主方案入住下则通富氧民宿。天气稳定、身体状态良好、营地同意且低温睡袋与通风装备齐全时，可启用夯达车宿方案。</div>
+      </article>
+
+      <article class="day">
+        <div class="dayhead"><div class="date"><b>29</b><span>周二</span></div><div class="daytitle"><h3>D4｜下则通 → 自然中心/小木屋 → 格聂镇 → 理塘 → 雅江松茸村</h3><p>从下则通经格聂镇单向退出，晚上利用G318铺装主路推进。</p></div><div class="daykm"><b>约260—310km</b>纯驾驶约7—9h</div></div>
+        <div class="timeline">
+          <div class="event meal"><span class="time">08:00—09:30</span><span class="tag food">🍜 起床 + 民宿早餐/退房</span><p>确认轮胎、底盘和油量，带好路餐，9:30按单向路线出发。</p></div>
+          <div class="event sight"><span class="time">09:30—10:10</span><span class="tag spot">● 格聂之眼补拍时段</span><p>D3已经完成则直接前往自然中心；D3行程延误时在这一时段补拍，随后向格聂镇方向前进。</p></div>
+          <div class="event sight"><span class="time">10:15—11:30</span><span class="tag spot">● 格聂自然中心 / 海蒂同款小木屋</span><p>两处合并控制在75分钟，拍完经格聂镇、伊拉卡、铁匠山方向退出。</p></div>
+          <div class="event meal"><span class="time">11:30—12:00</span><span class="tag food">🍜 路餐</span><p>使用随车路餐，吃完继续经格聂镇、伊拉卡、铁匠山前往理塘。</p></div>
+          <div class="event meal"><span class="time">15:30—16:10</span><span class="tag food">🍜 理塘下午餐</span> <span class="tag fuel">⛽ 理塘加满油</span><p>完成返程段燃油与电量补给，16:10前沿G318东行去雅江松茸村。</p></div>
+          <div class="event hotel"><span class="time">19:30—21:30</span><span class="tag stay">◆ 雅江阿美达民宿 · 松茸村约2,870—3,000m</span><p>地址为八角楼乡松茸村55号，靠近G318且可停车。提前联系预订松茸鸡汤；入夜后的行驶全部在G318铺装主路。</p></div>
+          <div class="event meal"><span class="time">到店后</span><span class="tag food">🍜 松茸鸡汤晚餐</span><p>在民宿享用松茸鸡汤并体验藏式村落住宿。</p></div>
+        </div>
+        <div class="fallback"><b>D4单向路线：</b>下则通 → 格聂自然中心/小木屋 → 格聂镇 → 伊拉卡 → 铁匠山 → 理塘。老冷古寺时间不足时在D3略过，D4按上述方向前进。</div>
+      </article>
+
+      <article class="day">
+        <div class="dayhead"><div class="date"><b>30</b><span>周三</span></div><div class="daytitle"><h3>D5｜松茸村 → 新都桥 → 格底拉姆 → 红海子 → 康定 → 崇州</h3><p>整天用于S434景观线和回撤；终点固定在崇州。</p></div><div class="daykm"><b>约390—450km</b>纯驾驶约8—9h</div></div>
+        <div class="timeline">
+          <div class="event meal"><span class="time">10:00—11:30</span><span class="tag food">🍜 起床 + 整理/简餐</span><p>早餐采用提前准备的简餐或请房东协助，按1.5小时完成准备后出发。</p></div>
+          <div class="event"><span class="time">11:30</span><span class="tag drive">→ 松茸村出发</span><p>沿G318先回到新都桥方向；途中完成午饭、加油和补电。</p></div>
+          <div class="event"><span class="time">12:40—13:00</span><span class="tag fuel">⛽ 新都桥补油 / 补电</span><p>进入S434前完成返程补能，随后前往格底拉姆。</p></div>
+          <div class="event sight"><span class="time">13:30—14:20</span><span class="tag spot">● 格底拉姆天空之城</span><p>从新都桥一侧进入，停留约50分钟；换乘和入口规则以当天为准。</p></div>
+          <div class="event sight"><span class="time">15:00—15:30</span><span class="tag spot">● 红海子</span><p>沿S434继续向康定，停留约30分钟；顺序固定为格底拉姆在前、红海子在后。</p></div>
+          <div class="event meal"><span class="time">16:20—16:55</span><span class="tag food">🍜 康定快餐 + 补能</span><p>17:00前进入雅康高速，随后直达崇州。</p></div>
+          <div class="event hotel"><span class="time">21:00—22:00</span><span class="tag stay">◆ 崇州酒店 · 约560m</span><p>22:00作为驾驶上限；选择靠近高速、有停车位、可晚到的酒店，当晚完成车辆清理、补油和行李整理。</p></div>
+        </div>
+        <div class="fallback"><b>关键时间：</b>14:20离开格底拉姆，15:30离开红海子，17:00前进入雅康高速。遇S434封路或恶劣天气时，按实时开放路线直达崇州。</div>
+      </article>
+
+      <article class="day">
+        <div class="dayhead"><div class="date"><b>01</b><span>周四</span></div><div class="daytitle"><h3>D6｜崇州 → 彭州木子里停车场自助点</h3><p>按你的要求11:00起床、11:30出发，还车后再吃饭。</p></div><div class="daykm"><b>约70—90km</b>约1.5—2h</div></div>
+        <div class="timeline">
+          <div class="event"><span class="time">11:00—11:30</span><span class="tag drive">→ 起床 + 快速退房</span><p>车辆和行李在9/30晚整理完毕，当天午饭安排在还车后。</p></div>
+          <div class="event"><span class="time">11:30</span><span class="tag drive">→ 准时出发</span><p>途中按合同要求补足油量/电量；出现拥堵立即联系神州报备。</p></div>
+          <div class="event hotel"><span class="time">13:00—13:30</span><span class="tag stay">◆ 彭州木子里停车场自助点</span><p><b>官方最晚14:00。</b>拍摄车身、底盘可见区域、轮毂、油量、电量和里程，保留自助还车完成截图。</p></div>
+          <div class="event meal"><span class="time">还车后</span><span class="tag food">🍜 彭州午饭</span><p>确认订单完成后前往彭州吃午饭。</p></div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="packing">
+    <h2 class="chapter"><span class="chapter-no">04</span><span>第四章｜携带物品</span></h2>
+    <p class="sub">沿用参考飞书文档的“分类—归属—物品—行前动作”表格形式，内容已改成此次格聂反穿、M817租车和高海拔夜间观星所需。</p>
+    <div class="tablewrap"><table class="packing">
+      <thead><tr><th>分类</th><th>归属</th><th>携带物品</th><th>出发前检查</th></tr></thead>
+      <tbody>
+        <tr><td>证件与订单</td><td>每人 / 驾驶员</td><td>身份证、驾驶证、租车订单、酒店订单、景区预约、保险信息、银行卡、少量现金</td><td><label><input type="checkbox">全部订单与电话保存为离线截图</label><label><input type="checkbox">证件原件集中放入随身包</label></td></tr>
+        <tr><td>衣物</td><td>每人</td><td>冲锋衣裤、速干内层、抓绒或摇粒绒、轻量羽绒、保暖内衣裤、厚袜、登山鞋、线帽、保暖手套、薄围巾</td><td><label><input type="checkbox">按“排汗层＋保暖层＋防风防水层”分装</label><label><input type="checkbox">车内放一套可随手取用的保暖层</label></td></tr>
+        <tr><td>洗漱与防晒</td><td>每人</td><td>牙刷牙膏、毛巾、洗面奶、面霜、润唇膏、防晒霜、防晒面罩、墨镜、湿巾、纸巾、眼罩耳塞、拖鞋</td><td><label><input type="checkbox">小容量分装并放入住宿包</label><label><input type="checkbox">防晒与润唇膏放在车内随手位</label></td></tr>
+        <tr><td>高原与药品</td><td>共同</td><td>血氧仪、便携氧气、氧包、葡萄糖、晕车药、退热镇痛药、肠胃药、创可贴与消毒用品、个人常用药</td><td><label><input type="checkbox">处方药按医生建议准备</label><label><input type="checkbox">确认巴塘与理塘可补充氧气的位置</label></td></tr>
+        <tr><td>车辆与脱困</td><td>驾驶员</td><td>充气泵、胎压计、补胎工具、搭电宝、拖车绳、软卸扣、工兵铲、防滑手套、反光背心、三角警示牌、车载灭火器</td><td><label><input type="checkbox">取车确认备胎、千斤顶和原车工具</label><label><input type="checkbox">确认前后拖车点及救援电话</label></td></tr>
+        <tr><td>导航与电力</td><td>共同</td><td>高德离线地图、关键岔路截图、纸质简图、双手机、车充、充电线、符合3C要求的充电宝、头灯、备用电池</td><td><label><input type="checkbox">下载四川西部离线地图与沿线城市数据</label><label><input type="checkbox">保存酒店坐标、电话和每日路线截图</label></td></tr>
+        <tr><td>摄影与观星</td><td>设备负责人</td><td>相机或Action 4、三脚架、无人机及电池、存储卡、镜头布、红光头灯、保温套</td><td><label><input type="checkbox">更新设备固件并清空存储卡</label><label><input type="checkbox">核对各景点与保护区的无人机规则</label></td></tr>
+        <tr><td>饮水与路餐</td><td>共同</td><td>饮用水、保温杯、即食主食、巧克力棒、坚果、能量胶或糖、香蕉、可乐、电解质饮料、垃圾袋</td><td><label><input type="checkbox">D2巴塘采购两天山区余量</label><label><input type="checkbox">D3出发前把当天路餐放入车内</label></td></tr>
+        <tr><td>车宿备选</td><td>共同</td><td>低温睡袋、防潮垫、保温毯、车窗遮光、通风用品、营地照明</td><td><label><input type="checkbox">仅在启用夯达车宿备选时装车</label><label><input type="checkbox">出发前核对夜间低温与营地接待</label></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="sources">
+    <h2>信息核对依据</h2>
+    <div class="panel"><p>参考飞书文档仅用于借鉴表格布局与物品分类；本文的日期、租车、酒店、费用和线路均采用本次2026格聂行程数据。订单平台、价格和取消时间以你提供的信息为准；酒店公开页面用于核对电话、地址与设施，电话核对日期为2026-08-29。</p>
+      <ul>
+        <li><a href="https://service.zuche.com/">神州租车：全国客服与网点查询</a>；<a href="https://www.amap.com/place/B0JDBC9MFZ">高德地图：天府机场店公开电话</a></li>
+        <li><a href="https://sg.trip.com/hotels/jianyang-hotel-detail-76247447/hillman-boutique-hotel">希尔曼精品酒店：电话与机场接送信息</a></li>
+        <li><a href="https://tw.trip.com/hotels/kangding-hotel-detail-122133760/kangding-xinduqiao-yinmo-resort-hotel/">新都桥隐沫度假酒店：电话、地址、停车与供氧设施</a></li>
+        <li><a href="https://tw.trip.com/hotels/batang-hotel-detail-112364222/hi-inn-ganzi-batang/">海友酒店（甘孜巴塘店）：电话</a>；<a href="https://hotels.ctrip.com/hotels/112364222.html">地址、停车与充电信息</a></li>
+        <li><a href="https://hotels.ctrip.com/hotels/135320058.html">理塘格聂云庭富氧酒店：电话、地址、供氧与餐厅</a></li>
+        <li><a href="https://hotels.corporatetravel.ctrip.com/hotels/119724567.html">雅江阿美达民宿：电话、松茸村55号、停车与到店提示</a></li>
+        <li><a href="https://gs.ctrip.com/html5/you/sight/litang3150/5066720.html">下则通村位置与全天开放信息</a></li>
+        <li><a href="https://www.023115.com/forum.php?mod=viewthread&amp;tid=2954">格聂南线反穿顺序与非铺装路段参考</a></li>
+        <li><a href="https://www.youxiake.com/gonglue/view?id=5322">反穿精华段：格聂之眼、冷古寺、夯达与热梯河谷</a></li>
+        <li><a href="https://www.toutiao.com/w/1871392341830656/">新冷古寺—老冷古寺：单程约3.8km、徒步时长与当地摩托参考</a></li>
+        <li><a href="https://www.sina.cn/news/detail/5331898173752189.html">2026年老冷古寺徒步实测：往返约8km、约3小时</a></li>
+        <li><a href="https://gs.ctrip.com/html5/you/travels/3150/4158772.html">夯达营地与格聂沿线露营点参考</a></li>
+        <li><a href="https://k.sina.com.cn/article_7857141524_1d452771401903e1me.html?from=travel">2026年理塘—姊妹湖—措普沟—巴塘时间轴参考</a></li>
+        <li><a href="https://www.weather.gov.hk/tc/gts/astron2026/files/HKO_almanac_2026.pdf">2026年天文年历：月相与日月出没核对</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="footer">最终重构版：2026-08-30 · 租车¥2,070 · 已知住宿¥1,381（崇州另计）</div>
+</main>
+<button class="printbtn" type="button" onclick="window.print()">打印 / 存为PDF</button>
+</body>
+</html>

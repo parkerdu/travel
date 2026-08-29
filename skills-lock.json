@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "skills": {
+    "amap-lbs-skill": {
+      "source": "clawhub.ai",
+      "sourceUrl": "https://clawhub.ai/lbs-amap/skills/amap-lbs-skill",
+      "sourceType": "well-known",
+      "computedHash": "e4942529620c3b0571241e690ceffd951d90bd1e064bf69183548510dda3b40a",
+      "wellKnownDigest": "sha256:b109c45dba79f698b8cc8a4ce5a418a476d6229e09b5b72966346994124198c1"
+    }
+  }
+}
